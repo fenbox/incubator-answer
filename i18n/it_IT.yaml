@@ -78,7 +78,7 @@ backend:
         other: 'Livello 1 (per team o gruppi privati: richiesta reputazione limitata)'
     level_2:
       description:
-        other: 'Livello 2 (per startup community: richiesta reputazione scarsa)'
+        other: 'Livello 2 (per startup community: richiesta reputazione scarsa) '
     level_3:
       description:
         other: 'Livello 3 (per community riconosciute: richiesta reputazione alta)'
@@ -634,7 +634,7 @@ ui:
       btn_confirm: Aggiungi
       uploading: Caricamento in corso...
     indent:
-      text: Indenta
+      text: Rientranza
     outdent:
       text: Deindenta
     italic:
@@ -1354,6 +1354,7 @@ ui:
     db_failed: Connessione al database fallita
     db_failed_desc: >-
       Questo significa che le informazioni sul database nel file <1>config.yaml</1> non sono corrette o che non è stato possibile stabilire il contatto con il server del database. Ciò potrebbe significare che il server del database del tuo host è inattivo.
+
   counts:
     views: visualizzazioni
     votes: Voti
@@ -1790,7 +1791,7 @@ ui:
   page_review:
     review: Revisione
     proposed: Proposto
-    question_edit: Edita domanda
+    question_edit: Modifica della domanda
     answer_edit: Edita risposta
     tag_edit: Edita tag
     edit_summary: Edita il riepilogo
